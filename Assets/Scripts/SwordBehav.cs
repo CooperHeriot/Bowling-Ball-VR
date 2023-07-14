@@ -5,6 +5,8 @@ using UnityEngine;
 public class SwordBehav : MonoBehaviour
 {
     public bool cutting;
+
+    public float damage = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,5 +17,16 @@ public class SwordBehav : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (cutting == true)
+        {
+            if (other.GetComponent<EnemyHealth>() != null)
+            {
+                other.GetComponent<EnemyHealth>().Hurt(damage);
+            }
+        }
     }
 }
