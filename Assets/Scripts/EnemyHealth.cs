@@ -30,6 +30,8 @@ public class EnemyHealth : MonoBehaviour
     public void Hurt(float damage)
     {
         currentHealth -= damage;
+
+        print("dsffds");
     }
 
     public void die()
