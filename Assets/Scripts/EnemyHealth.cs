@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public float currentHealth;
 
-    private float maxHealth;
+    public float maxHealth;
 
     // Start is called before the first frame update
     void Start()
