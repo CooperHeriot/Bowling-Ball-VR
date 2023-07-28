@@ -6,6 +6,8 @@ public class PlayerHealth : MonoBehaviour
 {
     public float currentHealth;
     private float maxHealth;
+
+    public bool shielded;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +29,10 @@ public class PlayerHealth : MonoBehaviour
 
     public void Hurt(float damage)
     {
+        if (shielded == false)
+        {
 
+        }
     }
 
     public void Die()
