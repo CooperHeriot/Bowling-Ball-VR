@@ -25,13 +25,18 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = 0;
         }
+
+        if (currentHealth == 0)
+        {
+
+        }
     }
 
     public void Hurt(float damage)
     {
         if (shielded == false)
         {
-
+            currentHealth -= damage;
         }
     }
 
