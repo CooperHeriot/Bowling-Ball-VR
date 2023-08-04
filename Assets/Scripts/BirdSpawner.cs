@@ -7,7 +7,7 @@ public class BirdSpawner : MonoBehaviour
     public bool active;
 
     public GameObject bird;
-    public float interval;
+    public float interval = 60;
     private float begin;
 
     // Start is called before the first frame update
