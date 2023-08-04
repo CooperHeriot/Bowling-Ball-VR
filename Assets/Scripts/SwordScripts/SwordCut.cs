@@ -10,7 +10,7 @@ public class SwordCut : MonoBehaviour
 
     private Rigidbody drb;
 
-    public bool cut;
+    public bool cut, shoot;
 
     public SwordBehav SB;
     // Start is called before the first frame update
@@ -41,6 +41,13 @@ public class SwordCut : MonoBehaviour
         {
             cut = false;
             SB.cutting = false;
+        }
+
+
+        if (SB.shooting == true)
+        {
+            shoot = true;
+            SB.shooting = false;
         }
     }
 }

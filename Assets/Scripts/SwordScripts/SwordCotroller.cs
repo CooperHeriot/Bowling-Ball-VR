@@ -12,7 +12,7 @@ public class SwordCotroller : MonoBehaviour
 
     public PlayerHealth PH;
 
-    public GameObject shield;
+    public GameObject shield, laser, cam;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +38,7 @@ public class SwordCotroller : MonoBehaviour
             PH.shielded = true;
 
             shield.transform.position = ((left.gameObject.transform.position + right.gameObject.transform.position) / 2);
-            shield.transform.rotation = transform.rotation;
+            shield.transform.rotation = cam.transform.rotation;
         } else
         {
             shield.SetActive(false);
@@ -63,6 +63,24 @@ public class SwordCotroller : MonoBehaviour
             rLaserOn = false;
         }
 
-       // if (left.)
+        if (lLaserOn == true && rLaserOn == false)
+        {
+            if (left.shoot == true)
+            {
+                Instantiate(laser, left.point2.transform.position, left.point2.transform.rotation);
+                left.shoot = false;
+            }
+        }
+
+        if (lLaserOn == false && rLaserOn == true)
+        {
+            if (right.shoot == true)
+            {
+                Instantiate(laser, right.point2.transform.position, right.point2.transform.rotation);
+                right.shoot = false;
+            }
+        }
+
+        // if (left.)
     }
 }
