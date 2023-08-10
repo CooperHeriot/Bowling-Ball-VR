@@ -7,7 +7,7 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_Ground_03Ground_03_nmpcde2575a4bf0f5c
-  m_DiffuseTexture: {fileID: 2800000, guid: fcabeae9deeca804eacf0d843865b413, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 4a3a9234e09458e46bfef5e47f1f2655, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: 2e011cea87ebca4498551f61d9c82ee9, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 18, y: 18}
