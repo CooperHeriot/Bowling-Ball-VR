@@ -25,7 +25,7 @@ public class BirdSpawner : MonoBehaviour
 
             if (interval <= 0)
             {
-                Instantiate(bird);
+                Instantiate(bird, transform.position, transform.rotation);
                 interval = begin;
             }
         }

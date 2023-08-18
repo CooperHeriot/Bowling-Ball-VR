@@ -8,6 +8,8 @@ public class PlayerHealth : MonoBehaviour
     private float maxHealth;
 
     public bool shielded;
+
+    public GameObject gameOver;
     // Start is called before the first frame update
     void Start()
     {
