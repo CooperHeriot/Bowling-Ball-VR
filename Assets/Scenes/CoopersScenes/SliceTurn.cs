@@ -28,7 +28,7 @@ public class SliceTurn : MonoBehaviour
         {
             if (other.gameObject.GetComponent<SwordBehav>().cutting == true)
             {
-                BK.NextPage();
+                SceneManager.LoadScene("Cooperlvl1");
             }
         }
 
