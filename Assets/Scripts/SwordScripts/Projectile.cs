@@ -31,5 +31,10 @@ public class Projectile : MonoBehaviour
             collision.gameObject.GetComponent<EnemyHealth>().Hurt(damage);
             Destroy(gameObject);
         }
+        if (collision.gameObject.GetComponent<birt>() != null)
+        {
+            collision.gameObject.GetComponent<birt>().death();
+            Destroy(gameObject);
+        }
     }
 }

@@ -8,6 +8,8 @@ public class EnemyHealth : MonoBehaviour
 
     public float maxHealth;
 
+    public GameObject win;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,6 @@ public class EnemyHealth : MonoBehaviour
 
     public void die()
     {
-
+        win.SetActive(true);
     }
 }

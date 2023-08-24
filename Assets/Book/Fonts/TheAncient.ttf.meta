@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 034d12c1481924949826748808917d31
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - The Ancient
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 801100f3fd4c64d1486e255eb13ebb5e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

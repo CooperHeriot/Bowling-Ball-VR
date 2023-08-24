@@ -1,0 +1,67 @@
+# Blender MTL File: 'NewDrakoUPLD2.blend'
+# Material Count: 5
+
+newmtl Darkness...
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl Eye_Material
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.300000 0.300000 0.300000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd BLENDER PROJS\\NewDrako\\Eye Base Color2.png
+map_Ke BLENDER PROJS\\NewDrako\\Eye Base Color2.png
+
+newmtl Main_MAterial_
+Ns 35.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.072664 0.101658 0.147315
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd BLENDER PROJS\\NewDrako\\NeoDrako Diffuse TSTs\\New Drakon Main Mesh Color DELUXE TST3.png
+map_Ns BLENDER PROJS\\NewDrako\\NewDrako Rougness Bake.png
+map_d BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Main Color Alpha2.png
+
+newmtl New_Cloth_Material_
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Normal Map Bake 2.png
+map_Kd BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Outfit 2 Diffuse Bake2.png
+map_Ns BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Outfit 2 Roughness Map.png
+map_d BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Outfit 2 Alpha Map Bake.png
+refl BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Outfit 2 Metalness.png
+
+newmtl Spear
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.054967 0.054967 0.054967
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\FUUUUUUGOOOO.png
+map_Kd BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Spear Diffuse Bake.png
+map_Ns BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Spear Roughness Bake.png
+map_d BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Alpha Map Bake.png
+refl BLENDER PROJS\\NewDrako\\DRAKO 2 new outfit\\Outfit 2 BAKES\\Spear Metalness Map .png

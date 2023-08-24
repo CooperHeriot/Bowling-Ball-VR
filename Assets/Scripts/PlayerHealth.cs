@@ -9,11 +9,12 @@ public class PlayerHealth : MonoBehaviour
 
     public bool shielded;
 
-    public GameObject gameOver;
+    public GameObject gameOver, blud;
     // Start is called before the first frame update
     void Start()
     {
         maxHealth = currentHealth;
+        blud.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,11 +40,13 @@ public class PlayerHealth : MonoBehaviour
         if (shielded == false)
         {
             currentHealth -= damage;
+            blud.SetActive(false);
+            blud.SetActive(true);
         }
     }
 
     public void Die()
     {
-
+        gameOver.SetActive(true);
     }
 }
