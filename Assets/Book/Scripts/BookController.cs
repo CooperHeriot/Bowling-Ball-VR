@@ -14,9 +14,9 @@ public class BookController : MonoBehaviour
 
     public void NextPage()
     {
-        EnableRaycasters(false);
+       // EnableRaycasters(false);
 
-        bookCamera.targetTexture = nextPageTexture;
+       // bookCamera.targetTexture = nextPageTexture;
         rightPage.mainTexture = nextPageTexture;
 
         nextPageAnimation.leftSideMaterial.mainTexture = currentPageTexture;
@@ -26,9 +26,9 @@ public class BookController : MonoBehaviour
 
     public void PreviousPage()
     {
-        EnableRaycasters(false);
+       // EnableRaycasters(false);
 
-        bookCamera.targetTexture = nextPageTexture;
+      //  bookCamera.targetTexture = nextPageTexture;
         leftPage.mainTexture = nextPageTexture;
 
         previousPageAnimation.leftSideMaterial.mainTexture = nextPageTexture;
@@ -38,9 +38,9 @@ public class BookController : MonoBehaviour
 
     void OnTurnPageComplete()
     {
-        EnableRaycasters(true);
+    //    EnableRaycasters(true);
 
-        bookCamera.targetTexture = currentPageTexture;
+      //  bookCamera.targetTexture = currentPageTexture;
         leftPage.mainTexture = currentPageTexture;
         rightPage.mainTexture = currentPageTexture;
     }
