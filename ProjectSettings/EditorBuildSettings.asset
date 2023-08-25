@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BowlingScene/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/GisellesScenes/Little House FOR UI.unity
+    guid: 8cc7a587a451d47dc91d8074ca24d2fd
+  - enabled: 1
     path: Assets/Scenes/CoopersScenes/Cooperlvl1.unity
     guid: 364cfd6350d2d4145aa821a80ad14f9d
   m_configObjects:
